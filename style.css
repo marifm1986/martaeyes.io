@@ -1,0 +1,111 @@
+.card {
+  box-shadow: 0 3px 10px;
+}
+.carousel-inner {
+  margin-top: 20px;
+  height: 480px;
+  overflow: hidden;
+}
+
+.navbar-brand img {
+  width: 20vh;
+}
+
+@media (max-width: 500px) {
+  .herotxt h1 {
+    font-size: 2em;
+  }
+  .herotxt h2 {
+    font-size: 1em;
+  }
+  .bd-example {
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+    content: '';
+  }
+}
+
+@media (max-width: 360px) {
+  .herotxt {
+    position: absolute;
+    padding: 0;
+    margin-top: -485px;
+  }
+
+  .herotxt h1 {
+    font-size: 50px;
+  }
+  .herotxt h2 {
+    font-size: 20px;
+  }
+  .bd-example {
+    opacity: 0;
+    content: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .herotxt {
+    position: absolute;
+    padding: 0;
+    margin-top: -120%;
+    padding: 5px;
+  }
+  .herotxt .productbtn {
+    width: 100%;
+  }
+  .contacttxt {
+    margin-top: 20%;
+    font-size: 4em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .herotxt h1 {
+    margin-bottom: 50px;
+  }
+  .herotxt h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+  }
+  .bd-example {
+    opacity: 0;
+    content: none;
+  }
+  body h1 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .herotxt {
+    font-size: 20px;
+  }
+
+  .herotxt h1 {
+    font-size: 3em;
+    margin-bottom: 50px;
+  }
+  .herotxt h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+  }
+  .bd-example {
+    margin-top: -120%;
+  }
+  body h1 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
